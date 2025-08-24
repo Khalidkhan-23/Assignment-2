@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'miama';
+    src: url(../font/Miama.woff2) format('.woff2');
+}
+
+
+
+
+/* Colors */
+
+:root {
+    --primary-color: rgba(230, 83, 60, 1);
+    --head-font-color: rgba(255, 255, 255, 1);
+    --btn-font-color:rgba(255, 255, 255, 1);
+    --button-color: rgba(230, 83, 60, 1);
+    --sub-font-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* Background */
+
+:root{
+    --hero-bg: linear-gradient(180.00deg, rgba(17.411699295043945, 17.411699295043945, 17.411699295043945, 1),rgba(119.41169738769531, 119.41169738769531, 119.41169738769531, 0) 100%);
+    --main-bg-color: rgba(0, 0, 0, 1);
+    --second-bg-color: rgba(34, 34, 34, 1);
+}
+
+/* Typography */
+
+
+:root{
+    --carve-font: 'miama';
+    --main-font: "Inter";
+    --btn-font: "Inter";
+}
+
