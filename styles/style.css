@@ -50,6 +50,7 @@ body {
     line-height: 74px;
     letter-spacing: 0px;
     font-weight: 900;
+    margin-bottom: 18px;
 }
 
 .sub {
@@ -59,7 +60,7 @@ body {
     line-height: 30px;
     letter-spacing: 0.3px;
     font-weight: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .box-head {
@@ -308,12 +309,37 @@ nav {
 
 
 
+/* ---------------------------Run a Mile-------------------------- */
+
+
+.run{
+    background: var(--second-bg-color);
+    padding: 41px ;
+    justify-content: space-between;
+    border-radius: 23px;
+    gap: 16%;
+}
+.run img{
+    border-radius: 23px;
+}
+
+
+.run-description{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+
+
 
 
 @media screen and (max-width: 576px) {
 
 
     /* Repeated Classes */
+
+    
 
     .btn-container {
         width: 168px;
@@ -360,9 +386,6 @@ nav {
         justify-content: center;
     }
 
-    .hero-section {
-        padding: 50px;
-    }
 
 
 
@@ -417,6 +440,7 @@ nav {
         scale: 1;
         left: 0px;
         top: 20px;
+        padding: 0PX;
     }
 
     .red-circle img {
@@ -463,5 +487,27 @@ nav {
     .habit-container{
         flex-direction: column;
     }
+
+
+    /* Run */
+
+    .run{
+        margin: 4.6%;
+        padding: 33px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .run-description{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 31px ;
+}
+.run-description div{
+    display: flex;
+    justify-content: center;
+}
+.run-description .btn-container{
+    width: 290px;
+}
 
 }
