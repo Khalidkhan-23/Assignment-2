@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    background: var(--main-bg-color);
+}
+
+
+
+
+/* Repeated Classes */
+
+
+.btn-container {
+    width: 290px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    background: var(--button-color);
+}
+
+.down-btn-container {
+    width: 289px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    border: 1px solid var(--btn-font-color);
+}
+
+.btn {
+    color: var(--btn-font-color);
+    font-family: var(--btn-font);
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+
+.head {
+    color: var(--head-font-color);
+    font-family: var(--main-font);
+    font-size: 62px;
+    line-height: 74px;
+    letter-spacing: 0px;
+    font-weight: 900;
+}
+
+.sub {
+    color: var(--sub-font-color);
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-weight: 400px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 80%;
+    max-width: 1536px;
+    background-color: var(--main-bg-color);
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------Hero Section-------------------------- */
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1378px;
+}
+
+nav .brand {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.nav-bar {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 52px;
+}
+
+.nav-bar .nav-bar-1 {
+    width: 118px;
+    height: 49px;
+    background-color: var(--primary-color);
+    border-radius: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .nav-bar-4{
+    padding-right: 26px;
+}
+
+.hero-section{
+    /* height: 930px; */
+    background: var(--hero-bg);
+}
