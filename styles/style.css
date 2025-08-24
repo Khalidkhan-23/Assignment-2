@@ -61,6 +61,15 @@ body {
     font-weight: 400px;
 }
 
+.box-head {
+    color: var(--head-font-color);
+    font-family: var(--main-font);
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
 .section {
     display: flex;
     justify-content: center;
@@ -264,6 +273,38 @@ nav {
 
 
 
+/* ------------------------------  Habit  ----------------------------- */
+
+
+
+.habits{
+    flex-direction: column;
+    text-align: center ;
+}
+
+
+.habit-container{
+    display: flex;
+    justify-content: space-between;
+}
+.habit-box{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habit-box img{
+    scale: 1.3;
+    border: 6px solid var(--second-bg-color);
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 62px;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -359,22 +400,26 @@ nav {
         left: 0px;
         top: 20px;
     }
+
     .red-circle img {
-    width: 32px;
-}
+        width: 32px;
+    }
 
     .experience-hover {
         width: 155.74px;
         height: 72.58px;
         padding: 12px 18px;
     }
-    .experience-hover h3{
+
+    .experience-hover h3 {
         font-size: 30px;
     }
+
     .experience-hover p {
         font-size: 10px;
     }
-    .experience-hover>div>h3{
+
+    .experience-hover>div>h3 {
         font-size: 18px;
     }
 
@@ -382,7 +427,8 @@ nav {
         top: 100px;
         right: 0px;
     }
-    .ex-2{
+
+    .ex-2 {
         left: 0px;
         gap: 12px;
         padding: 14px 16px;
