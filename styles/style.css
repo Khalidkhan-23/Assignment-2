@@ -1,7 +1,8 @@
 * {
     margin: 0px;
 }
-body{
+
+body {
     background-color: var(--main-bg-color);
 }
 
@@ -79,16 +80,17 @@ body{
 /* Nav */
 
 
-header{
+header {
     background: var(--hero-bg);
 }
-.hero-section{
+
+.hero-section {
     justify-content: flex-start;
     flex-direction: column;
     padding-top: 74px;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: center;
 }
@@ -130,51 +132,61 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.nav-bar .nav-bar-4{
+
+.nav-bar .nav-bar-4 {
     padding-right: 26px;
+}
+
+.menu-bar {
+    display: none;
 }
 
 
 
 
 /* Hero */
-.hero{
+.hero {
     display: flex;
     margin-top: 130px;
     gap: 16%;
 
 }
-.hero-name , .hero-img{
+
+.hero-name,
+.hero-img {
     width: calc(50% - 8%);
 }
 
 /* Hero Name */
 
-.hero-name h1{
-color: var(--head-font-color);
-font-family:var(--main-font);
-font-size: 100px;
-font-weight: 800;
-line-height: 120px;
-letter-spacing: 0%;
-text-align: left;
-}
-.hero-name h1 span{
-font-family: var(--carve-font);
-font-size: 190px;
-font-weight: 400;
-}
-.hero-name p{
-    color: var(--sub-font-color);
-font-family: var(--main-font);
-font-size: 20px;
-font-weight: 400;
-line-height:30px;
-letter-spacing: 0.5px;
-text-align: left;
+.hero-name h1 {
+    color: var(--head-font-color);
+    font-family: var(--main-font);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 120px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
 }
 
-.btn-box{
+.hero-name h1 span {
+    font-family: var(--carve-font);
+    font-size: 190px;
+    font-weight: 400;
+}
+
+.hero-name p {
+    color: var(--sub-font-color);
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.btn-box {
     display: flex;
     margin-top: 36px;
     gap: 18px;
@@ -183,64 +195,63 @@ text-align: left;
 
 /* Hero Image */
 
-.hero-img{
+.hero-img {
     position: relative;
 }
 
-.experience-hover{
- box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 13px;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-padding: 30px;
-width: 267px;
-height: 124px;
+.experience-hover {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 13px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 267px;
+    height: 124px;
 }
-.experience-hover h3{
-color: var(--head-font-color);
-font-family: var(--main-font);
-font-size: 39px;
-font-weight: 900;
-line-height: 30px;
-letter-spacing: 0.3px;
-text-align: left;
+
+.experience-hover h3 {
+    color: var(--head-font-color);
+    font-family: var(--main-font);
+    font-size: 39px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
 
 
-.experience-hover p{
-   color: var(--sub-font-color);
-font-family: var(--main-font);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 1px;
-text-align: left;
+.experience-hover p {
+    color: var(--sub-font-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
-.experience-hover > div > h3{
-font-size: 30px;
+.experience-hover>div>h3 {
+    font-size: 30px;
 }
-.experience-hover .red-circle{
+
+.red-circle img {
     width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    background: var(--primary-color);
 }
 
-.hero-img img{
+.hero-img>img {
     scale: 1.3;
     position: relative;
     left: 100px;
 }
 
-.ex-1{
+.ex-1 {
     position: absolute;
     top: 120px;
     right: 20px;
 }
 
-.ex-2{
+.ex-2 {
     display: flex;
     align-items: center;
     gap: 14px;
@@ -252,3 +263,131 @@ font-size: 30px;
 
 
 
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    /* Repeated Classes */
+
+    .btn-container {
+        width: 168px;
+        height: 53px;
+    }
+
+    .down-btn-container {
+        width: 169px;
+        height: 54px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .btn span {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        width: 95%;
+    }
+
+    .section-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-section {
+        padding: 50px;
+    }
+
+
+
+    /* Nav */
+
+    nav {
+        width: 100%;
+    }
+
+    .nav .nav-bar {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        margin-top: 18px;
+    }
+
+    .nav .brand {
+        font-size: 30px;
+    }
+
+    /* Hero */
+
+    .hero-name h1 {
+        font-size: 36px;
+        line-height: 44px;
+        width: 70%;
+    }
+
+    .hero-name h1 span {
+        font-size: 70px;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin-top: 52px;
+    }
+
+    .hero-name,
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-name p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 70%;
+    }
+
+    .hero-img img {
+        scale: 1;
+        left: 0px;
+        top: 20px;
+    }
+    .red-circle img {
+    width: 32px;
+}
+
+    .experience-hover {
+        width: 155.74px;
+        height: 72.58px;
+        padding: 12px 18px;
+    }
+    .experience-hover h3{
+        font-size: 30px;
+    }
+    .experience-hover p {
+        font-size: 10px;
+    }
+    .experience-hover>div>h3{
+        font-size: 18px;
+    }
+
+    .ex-1 {
+        top: 100px;
+        right: 0px;
+    }
+    .ex-2{
+        left: 0px;
+        gap: 12px;
+        padding: 14px 16px;
+    }
+
+
+
+}
