@@ -2,8 +2,8 @@
 
 
 @font-face {
-    font-family: 'miama';
-    src: url(../font/Miama.woff2) format('.woff2');
+    font-family: 'Miama';
+    src: url(../font/Miama.woff2) format('woff2');
 }
 
 
@@ -33,7 +33,7 @@
 
 
 :root{
-    --carve-font: 'miama';
+    --carve-font: 'Miama';
     --main-font: "Inter";
     --btn-font: "Inter";
 }
