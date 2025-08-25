@@ -330,6 +330,90 @@ nav {
 }
 
 
+/* ---------------------------Training-------------------------- */
+
+
+
+
+/* ---------------------------- BMI  ------------------------------ */
+
+
+
+
+/* ------------------------------  Team  ---------------------------- */
+
+
+.team{
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-container{
+    display: flex;
+    background: var(--second-bg-color);
+    border-radius: 23px;
+    gap: 26px;
+    padding: 26px;
+    flex-wrap: wrap;
+    width: 91%;
+}
+
+.team-card{
+    width: 424px;
+    height: 353px;
+    background-size: cover;
+    border-radius: 23px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 24px;
+}
+
+.card-1{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer1.png") no-repeat center / cover;
+}
+.card-2{
+   background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer2.png") no-repeat center / cover;
+}
+.card-3{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer3.png") no-repeat center / cover;
+}
+.card-4{
+   background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer4.png") no-repeat center / cover;
+}
+.card-5{
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer5.png") no-repeat center / cover;
+}
+.card-6{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/trainer6.png") no-repeat center / cover;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 998px) {
+
+}
+
+
 
 
 
